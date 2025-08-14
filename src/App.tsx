@@ -1,4 +1,5 @@
-import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Problem from './components/Problem';
@@ -10,9 +11,9 @@ import RootsVisual from './components/RootsVisual';
 import FinalCTA from './components/FinalCTA';
 import Footer from './components/Footer';
 
-function App() {
+function HomePage() {
   return (
-    <div className="min-h-screen">
+    <>
       <Header />
       <Hero />
       <Problem />
@@ -23,7 +24,20 @@ function App() {
       <RootsVisual />
       <FinalCTA />
       <Footer />
-    </div>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter basename={import.meta.env.DEV ? "/dash-guard" : "/"}>
+      <div className="min-h-screen">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          {/* Add more routes here if needed */}
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
