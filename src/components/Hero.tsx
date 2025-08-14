@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
             </p>
             <div className="space-y-4">
               <button className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-200 shadow-lg inline-flex items-center">
-                ✅ Book One-Time Consulting for ₹50,000
+                 Book One-Time Consulting
                 <ArrowRight className="ml-2 w-5 h-5" />
               </button>
               <div className="text-sm text-gray-500">

@@ -16,7 +16,7 @@ const FinalCTA: React.FC = () => {
         
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
           <button className="bg-white text-blue-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transform hover:scale-105 transition-all duration-200 shadow-lg inline-flex items-center">
-            ✅ Book One-Time Consulting for ₹50,000
+            Book One-Time Consulting
             <ArrowRight className="ml-2 w-5 h-5" />
           </button>
           

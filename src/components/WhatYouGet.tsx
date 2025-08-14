@@ -23,11 +23,11 @@ const WhatYouGet: React.FC = () => {
       title: "Insights on where to grow and how to position",
       description: "Strategic positioning for competitive advantage"
     },
-    {
-      icon: ClipboardList,
-      title: "Simple 90-day action plan",
-      description: "Tailored roadmap for your specific business"
-    },
+    // {
+    //   icon: ClipboardList,
+    //   title: "Simple 90-day action plan",
+    //   description: "Tailored roadmap for your specific business"
+    // },
     {
       icon: FileText,
       title: "Clear, founder-ready strategy deck",
