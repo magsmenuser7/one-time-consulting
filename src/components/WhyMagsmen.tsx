@@ -54,19 +54,18 @@ const WhyMagsmen: React.FC = () => {
             </div>
           </div>
           
-          <div className="relative">
-            <div className="bg-gradient-to-br from-blue-600 to-orange-500 rounded-2xl p-8 text-white transform rotate-3 hover:rotate-0 transition-transform duration-300">
-              <div className="text-center">
-                <div className="w-24 h-24 bg-white bg-opacity-20 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <Award className="w-12 h-12 text-white" />
-                </div>
-                <h3 className="text-2xl font-bold mb-4">Consultant of the Year 2023</h3>
-                <p className="text-blue-100">
-                  Recognized for exceptional brand strategy and founder-focused consulting
-                </p>
-              </div>
-            </div>
-          </div>
+<div className="relative w-100 h-[70%] rounded-2xl overflow-hidden shadow-lg">
+  <video
+    className="w-full h-full object-cover"
+    autoPlay
+    loop
+    muted
+    playsInline
+  >
+    <source src="public/GSR0081.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
         </div>
       </div>
     </section>
