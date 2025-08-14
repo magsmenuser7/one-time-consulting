@@ -30,7 +30,7 @@ function HomePage() {
 
 function App() {
   return (
-    <BrowserRouter basename={import.meta.env.DEV ? "/dash-guard" : "/"}>
+    <BrowserRouter basename={import.meta.env.DEV ? "/one-time-consulting" : "/"}>
       <div className="min-h-screen">
         <Routes>
           <Route path="/" element={<HomePage />} />
