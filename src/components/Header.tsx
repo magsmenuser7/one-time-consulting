@@ -8,7 +8,7 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             {/* <h1 className="text-2xl font-bold text-gray-900">Magsmen</h1> */}
-            <img src="./magsmen-new-version.png" alt="magsmen-new-version" style={{ width: "150px", height: "auto", maxHeight: "100px" }}  />
+            <img src="./otcc-white.jpg" alt="magsmen-new-version"  style={{ width: "150px", height: "auto", maxHeight: "60px" }}  />
           </div>
           <div className="flex items-center space-x-4">
             <a

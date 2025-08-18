@@ -6,7 +6,8 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-8 md:mb-0">
-            <h3 className="text-2xl font-bold text-white mb-4">Magsmen</h3>
+            {/* <h3 className="text-2xl font-bold text-white mb-4">Magsmen</h3> */}
+            <img src="./otc-black.png" alt="otc-black" style={{ width: "150px", height: "auto", maxHeight: "100px" }}/>
             <p className="text-gray-400 max-w-md">
               Brand consulting that fixes what's underneath, so your brand grows strong and stands tall.
             </p>
