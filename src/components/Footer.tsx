@@ -25,7 +25,14 @@ const Footer: React.FC = () => {
               </a>
             </div>
             <p className="text-gray-500 text-sm">
-              Copyright © 2025 Magsmen. All rights reserved.
+              Copyright © 2025 <a 
+    href="https://magsmen.com" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="text-white hover:underline"
+  >
+    Magsmen
+  </a>. All rights reserved.
             </p>
           </div>
         </div>

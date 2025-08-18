@@ -31,33 +31,34 @@ const Problem: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             Your Business Isn't the Problem.
-            <span className="text-orange-500 block">Your Brand Clarity Is.</span>
+            <span className="text-[#7641c8] block">Your Brand Clarity Is.</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             You're working hard. The product is good.
             <br />
             But customers aren't sticking. Sales are inconsistent. Marketing feels random.
             <br />
-            <strong>If that sounds familiar — this is where clarity begins.</strong>
+            <strong>If that sounds familiar this is where clarity begins.</strong>
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          {problems.map((problem, index) => {
-            const IconComponent = problem.icon;
-            return (
-              <div
-                key={index}
-                className="bg-gray-50 rounded-xl p-6 text-center hover:bg-gray-100 transition-colors duration-200 border-l-4 border-orange-500"
-              >
-                <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <IconComponent className="w-6 h-6 text-orange-600" />
-                </div>
-                <p className="text-gray-800 font-medium">{problem.text}</p>
-              </div>
-            );
-          })}
+<div className="flex flex-wrap justify-center gap-8 max-w-5xl mx-auto">
+  {problems.map((problem, index) => {
+    const IconComponent = problem.icon;
+    return (
+      <div
+        key={index}
+        className="bg-gray-50 rounded-xl p-6 text-center hover:bg-gray-100 transition-colors duration-200 border-l-4 border-[#7641c8] shadow-lg w-[320px]"
+      >
+        <div className="w-12 h-12 bg-[#7641c8]/20 rounded-full flex items-center justify-center mx-auto mb-4">
+          <IconComponent className="w-6 h-6 text-[#7641c8]" />
         </div>
+        <p className="text-gray-800 font-medium">{problem.text}</p>
+      </div>
+    );
+  })}
+</div>
+
       </div>
     </section>
   );

@@ -29,7 +29,7 @@ const HowItWorks: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             One-Time Consulting.
-            <span className="text-orange-500 block">Zero Guesswork.</span>
+            <span className="text-[#7641c8] block">Zero Guesswork.</span>
           </h2>
         </div>
         
@@ -42,12 +42,12 @@ const HowItWorks: React.FC = () => {
                 className="relative bg-white rounded-xl p-8 shadow-lg text-center group hover:shadow-xl transition-shadow duration-300"
               >
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <div className="w-8 h-8 bg-orange-500 text-white rounded-full flex items-center justify-center text-sm font-bold">
+                  <div className="w-8 h-8 bg-[#000] text-white rounded-full flex items-center justify-center text-sm font-bold">
                     {step.number}
                   </div>
                 </div>
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-6 mt-4 group-hover:bg-blue-200 transition-colors duration-300">
-                  <IconComponent className="w-8 h-8 text-blue-600" />
+                <div className="w-16 h-16 bg-[#7641c8]/20 rounded-full flex items-center justify-center mx-auto mb-6 mt-4 group-hover:bg-blue-200 transition-colors duration-300">
+                  <IconComponent className="w-8 h-8 text-[#7641c8]" />
                 </div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">
                   {step.title}

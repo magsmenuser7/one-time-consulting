@@ -9,13 +9,13 @@ const Hero: React.FC = () => {
           <div className="text-left">
             <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
               Fix the Brand.
-              <span className="text-orange-500 block">Unlock the Growth.</span>
+              <span className="text-[#7641c8] block">Unlock the Growth.</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              A one-time consulting experience that helps you understand what's holding your brand back — and gives you a clear path forward.
+              A one-time consulting experience that helps you understand what's holding your brand back and gives you a clear path forward.
             </p>
             <div className="space-y-4">
-              <button className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transform hover:scale-105 transition-all duration-200 shadow-lg inline-flex items-center">
+              <button className="bg-[#000] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#7641c8] transform hover:scale-105 transition-all duration-200 shadow-lg inline-flex items-center">
                  Book One-Time Consulting
                 <ArrowRight className="ml-2 w-5 h-5" />
               </button>
@@ -24,9 +24,9 @@ const Hero: React.FC = () => {
                   href="https://wa.me/919044910449"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium"
+                  className="inline-flex items-center text-black hover:text-blue-800 font-medium"
                 >
-                  <MessageCircle className="w-4 h-4 mr-1" />
+                  <MessageCircle className="w-4 h-4 mr-1 text-black" />
                   Talk to Our Team on WhatsApp → +91 9044910449
                 </a>
               </div>
@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
             <div className="bg-white rounded-2xl shadow-2xl p-8 transform rotate-2 hover:rotate-0 transition-transform duration-300">
               <div className="grid grid-cols-2 gap-4">
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 bg-[#000]/20 rounded-full flex items-center justify-center mx-auto mb-4">
                     <span className="text-2xl">😵‍💫</span>
                   </div>
                   <h3 className="font-semibold text-gray-900 mb-2">Before</h3>
@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
                   </ul>
                 </div>
                 <div className="text-center">
-                  <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="w-16 h-16 bg-[#7641c8]/25 rounded-full flex items-center justify-center mx-auto mb-4">
                     <span className="text-2xl">🎯</span>
                   </div>
                   <h3 className="font-semibold text-gray-900 mb-2">After</h3>

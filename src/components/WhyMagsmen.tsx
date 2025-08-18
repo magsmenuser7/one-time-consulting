@@ -24,7 +24,7 @@ const WhyMagsmen: React.FC = () => {
           <div>
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
               Magsmen is the Brand Consulting Partner
-              <span className="text-blue-600 block">Trusted Across India</span>
+              <span className="text-[#7641c8] block">Trusted Across India</span>
             </h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               We've helped IPL sponsors, D2C startups, celebrities, and Fortune 25 companies build brands that stand out and scale up.
@@ -44,8 +44,8 @@ const WhyMagsmen: React.FC = () => {
                 const IconComponent = highlight.icon;
                 return (
                   <div key={index} className="flex items-center space-x-3">
-                    <div className="w-8 h-8 bg-orange-100 rounded-full flex items-center justify-center">
-                      <IconComponent className="w-4 h-4 text-orange-600" />
+                    <div className="w-8 h-8 bg-[#7641c8]/20 rounded-full flex items-center justify-center">
+                      <IconComponent className="w-4 h-4 text-[#7641c8]" />
                     </div>
                     <span className="text-gray-700 font-medium">✨ {highlight.text}</span>
                   </div>

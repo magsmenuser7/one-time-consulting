@@ -47,27 +47,28 @@ const WhatYouGet: React.FC = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {deliverables.map((item, index) => {
-            const IconComponent = item.icon;
-            return (
-              <div
-                key={index}
-                className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border-t-4 border-blue-500"
-              >
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-6">
-                  <IconComponent className="w-6 h-6 text-blue-600" />
-                </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">
-                  {item.title}
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  {item.description}
-                </p>
-              </div>
-            );
-          })}
+<div className="flex flex-wrap justify-center gap-12">
+  {deliverables.map((item, index) => {
+    const IconComponent = item.icon;
+    return (
+      <div
+        key={index}
+        className="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border-t-4 border-[#7641c8] w-[320px]"
+      >
+        <div className="w-12 h-12 bg-[#7641c8]/20 rounded-full flex items-center justify-center mb-6">
+          <IconComponent className="w-6 h-6 text-[#7641c8]" />
         </div>
+        <h3 className="text-lg font-semibold text-gray-900 mb-3">
+          {item.title}
+        </h3>
+        <p className="text-gray-600 leading-relaxed">
+          {item.description}
+        </p>
+      </div>
+    );
+  })}
+</div>
+
       </div>
     </section>
   );

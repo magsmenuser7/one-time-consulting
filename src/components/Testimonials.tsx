@@ -12,7 +12,7 @@ const Testimonials: React.FC = () => {
       author: "Tech Company CEO"
     },
     {
-      text: "This is the best ₹50,000 I've spent on my business.",
+      text: "This is the best, I've spent on my business.",
       author: "Business Owner"
     }
   ];
@@ -33,13 +33,13 @@ const Testimonials: React.FC = () => {
               className="bg-gradient-to-br from-blue-50 to-orange-50 rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300 relative"
             >
               <div className="absolute -top-4 left-6">
-                <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
+                <div className="w-8 h-8 bg-[#7641c8] rounded-full flex items-center justify-center">
                   <Quote className="w-4 h-4 text-white" />
                 </div>
               </div>
               <div className="flex mb-4">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
+                  <Star key={i} className="w-5 h-5 text-[#7641c8] fill-current" />
                 ))}
               </div>
               <p className="text-gray-700 mb-6 leading-relaxed italic">
