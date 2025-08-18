@@ -13,7 +13,7 @@ const HowItWorks: React.FC = () => {
       number: "02",
       icon: AlertTriangle,
       title: "We Find the Blockers",
-      description: "We diagnose what's holding you back — inside and outside."
+      description: "We diagnose what's holding you back inside and outside."
     },
     {
       number: "03",
@@ -62,7 +62,7 @@ const HowItWorks: React.FC = () => {
         
         <div className="text-center bg-blue-50 rounded-xl p-8">
           <p className="text-lg text-gray-700 font-medium">
-            This is not a retainer. Not a course. Just a one-time, high-value consulting format.
+            This is not a retainer. Not a course. Just a one-time, high value consulting format.
           </p>
         </div>
       </div>

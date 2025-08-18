@@ -18,7 +18,7 @@ const RootsVisual: React.FC = () => {
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             We don't just make the outside look good.
             <br />
-            <strong>We fix what's underneath — so your brand grows strong and stands tall.</strong>
+            <strong>We fix what's underneath so your brand grows strong and stands tall.</strong>
           </p>
         </div>
         
