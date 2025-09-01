@@ -20,9 +20,14 @@ const Header: React.FC = () => {
               <MessageCircle className="w-4 h-4 mr-2 text-black" />
               WhatsApp
             </a>
-            <button className="bg-[#000] text-white px-6 py-2 rounded-lg font-semibold hover:bg-[#7641c8] transition-colors duration-200">
+            <a
+              href="https://audit.magsmen.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#000] text-white px-6 py-2 rounded-lg font-semibold hover:bg-[#7641c8] transition-colors duration-200"
+            >
               Book Consulting
-            </button>
+            </a>
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, MessageCircle } from 'lucide-react';
 
+
 const Hero: React.FC = () => {
   return (
     <section className="bg-gradient-to-br from-blue-50 to-orange-50 py-20 lg:py-28">
@@ -15,10 +16,15 @@ const Hero: React.FC = () => {
               A one-time consulting experience that helps you understand what's holding your brand back and gives you a clear path forward.
             </p>
             <div className="space-y-4">
-              <button className="bg-[#000] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#7641c8] transform hover:scale-105 transition-all duration-200 shadow-lg inline-flex items-center">
-                 Book One-Time Consulting
+              <a
+                href="https://audit.magsmen.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#000] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#7641c8] transform hover:scale-105 transition-all duration-200 shadow-lg inline-flex items-center"
+              >
+                Assess Your Brand
                 <ArrowRight className="ml-2 w-5 h-5" />
-              </button>
+              </a>
               <div className="text-sm text-gray-500">
                 <a
                   href="https://wa.me/919044910449"
